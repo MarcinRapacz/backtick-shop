@@ -2,6 +2,9 @@
   "name": "@backtick-shop/root",
   "private": true,
   "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
+    "husky": "^7.0.0",
     "lerna": "^4.0.0",
     "prettier": "2.6.2"
   },
@@ -9,5 +12,9 @@
     "node": ">=16.0.0",
     "npm": ">=8.5.0",
     "yarn": "please-use-npm"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "test": "echo \"No test specified\""
   }
 }
