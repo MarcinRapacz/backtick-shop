@@ -14,7 +14,8 @@
     "yarn": "please-use-npm"
   },
   "scripts": {
+    "lint": "lerna run lint",
     "prepare": "husky install",
-    "lint": "lerna run lint"
+    "test": "lerna run test"
   }
 }
