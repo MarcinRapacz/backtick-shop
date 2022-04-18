@@ -15,6 +15,6 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "test": "echo \"No test specified\""
+    "lint": "lerna run lint"
   }
 }
