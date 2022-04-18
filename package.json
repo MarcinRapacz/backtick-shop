@@ -1,0 +1,12 @@
+{
+  "name": "@backtick-shop/root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.5.0",
+    "yarn": "please-use-npm"
+  }
+}
